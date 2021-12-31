@@ -3,12 +3,18 @@
 body {
   background-image:url('check.png');
   background-repeat: repeat;
-  background-size: 60px;
+  background-size: 40px;
   font-family: 'Raleway', sans-serif;
   font-size: 14px;
   margin: auto;
   padding: 0px;
   box-sizing: border-box;
+}
+.pic {
+  width: 100%;
+  height: 250px;
+  border: 1px solid #dbdbdb;
+  margin-top: 0px;
 }
 a {
   color: #14613c;
@@ -25,7 +31,7 @@ a:hover {
   padding: 0px;
 }
 .sidebar-section {
-  background-image:url('patsas4.jpg');
+  background-image:url('statue.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
@@ -144,7 +150,7 @@ article {
 }
 .title-box h1 {
   font-family: 'Fondamento', cursive;
-  color: #c2a26e;
+  color: #b8a68a;
   font-size: 3.2rem;
   margin-bottom: 20px;
   text-transform: none;
