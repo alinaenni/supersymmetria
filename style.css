@@ -1,0 +1,327 @@
+/* Background patterns from Toptal Subtle Patterns */
+
+body {
+  background-image:url('check.png');
+  background-repeat: repeat;
+  background-size: 60px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  margin: auto;
+  padding: 0px;
+  box-sizing: border-box;
+}
+a {
+  color: #14613c;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: #14613c;
+}
+.collapse {
+  padding: 0px;
+}
+.show {
+  padding: 0px;
+}
+.sidebar-section {
+  background-image:url('patsas4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  right: 0;
+  padding: 0px;
+  position: -webkit-sticky;
+  position: sticky;
+  box-sizing: border-box;
+}
+.sidebar-item {
+  position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+  height: 100%;
+  color: #4d4d4d;
+  padding: 0px;
+
+	/* Position the items */
+	// &:nth-child(2) { top: 25%; }
+	// &:nth-child(3) { top: 50%; }
+	// &:nth-child(4) { top: 75%; }
+}
+.make-me-sticky {
+  position: -webkit-sticky;
+	position: sticky;
+	top: 20vh;
+	left: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+nav.navbar {
+  margin: 0px;
+  padding: 0px;
+  left: 0;
+  margin-top: 35vh;
+}
+.navi ul {
+  list-style: none;
+  text-align: center;
+  width: 100%;
+  padding: 0px;
+  margin-top: 0vh;
+}
+.navi li {
+  padding: 0px;
+  margin: 0px;
+}
+.navi li a {
+  width: 100%;
+  display: block;
+  text-align: center;
+  color: #fff;
+  font-size: 1.1rem;
+  padding: 23px 0px 23px 0px;
+  font-family: 'Raleway';
+  text-decoration: none;
+  text-transform: none;
+  font-weight: normal;
+  letter-spacing: 1px;
+  -webkit-transition-duration: 0.5s; /* Safari */
+  transition-duration: 0.8s;
+  text-shadow: 0px 0px 1px #000;
+}
+.navi li a:hover {
+  color: #fff;
+  text-decoration: none;
+  background: rgba(255,255,255,0.3);
+  text-shadow: 0px 0px 1px #000;
+}
+.surround {
+  padding: 0px;
+  background: transparent;
+  box-sizing: border-box;
+  left: 0;
+}
+.content-section {
+  text-align: justify;
+  background: transparent;
+  box-sizing: border-box;
+  padding: 0px 40px 40px 40px;
+}
+.contentbox {
+  background-color: rgba(255,255,255,0.6);
+  padding: 50px;
+  box-sizing: border-box;
+  text-align: justify;
+  line-height: 33px;
+  color: #363636;
+  margin-right: 0px;
+  font-weight: normal;
+  font-family: 'Raleway';
+}
+.contentbox.new {
+  margin-top: 40px;
+}
+.contentbox.new.some {
+  background-color: #f7ebee;
+  background-image:url('net.png');
+  background-repeat: repeat;
+}
+article {
+  background: transparent;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.title-box {
+  text-align: center;
+  padding: 70px;
+  box-sizing: border-box;
+}
+.title-box h1 {
+  font-family: 'Fondamento', cursive;
+  color: #d1b379;
+  font-size: 3.2rem;
+  margin-bottom: 20px;
+  text-transform: none;
+  font-weight: normal;
+}
+.title-box h2 {
+  font-size: 0.9rem;
+  font-family: 'Raleway';
+  color: #573a1f;
+  margin-top: 0px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.content-section h1 {
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: none;
+  font-family: 'Raleway';
+  color: #ad651d;
+  text-align: center;
+}
+.content-section h3 {
+  font-size: 16px;
+  color: #573a1f;
+  font-family: 'Raleway';
+  text-align: center;
+}
+.pagi {
+  width: 100%;
+  padding: 25px;
+  box-sizing: border-box;
+}
+.pagination {
+  margin: auto;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.pagination a {
+  color: #14613c;
+  letter-spacing: 1px;
+  background-color: rgba(255,255,255,0.9);
+  -webkit-transition-duration: 0.2s; /* Safari */
+  transition-duration: 0.2s;
+}
+.pagination a:hover {
+  color: #fff;
+  background-color: #5d9178;
+}
+footer {
+  background-color: #fff;
+  width: 100%;
+  box-sizing: border-box;
+  color: #5e5e5e;
+  text-align: left;
+  padding: 35px 0px 35px 50px;
+  bottom: 0px;
+  position: relative;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 1.5px;
+}
+footer a {
+  color: #5e5e5e;
+}
+footer a:hover {
+  color: #5e5e5e;
+}
+.details {
+  table-layout: fixed;
+  width: 100%;
+  text-align: center;
+  color: #c2b6ba;
+}
+.details th {
+  width: 20%;
+  padding: 7px;
+}
+.details a {
+  color: #5d9178;
+}
+.she-pic {
+  width: 260px;
+  border: 20px solid #e9eef0;
+  margin-left: 35px;
+}
+.contentbox.new.some h1 {
+  color: #c2b6ba;
+}
+.mobile {
+  display: none;
+  width: 0px;
+}
+#navi-toggle {
+  color: #fff;
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+#mobile-navi {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+.mobile {
+    background-color: rgba(0,0,0,0.8);
+    display: block;
+    width: 100%;
+    height: 7%;
+    padding: 0.5% 0px 0px 2.5%;
+    position: fixed;
+    overflow-x: hidden;
+    z-index: 1;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+  }
+#mobile-navi.visible {
+    background-color: rgba(0,0,0,0.95);
+    box-sizing: border-box;
+    display: block;
+    position: fixed;
+    margin: 0px;
+    top: 7%;
+    z-index: 2;
+  }
+#mobile-navi.visible ul {
+    margin: 0px;
+    width: 100vw;
+    text-align: center;
+    list-style: none;
+    padding: 0px;
+  }
+#mobile-navi.visible li {
+    display: block;
+    width: 100vw;
+    padding: 40px 0px 40px 0px;
+    color: #000;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+ #mobile-navi.visible a {
+   display: block;
+   width: 100vw;
+   color: #b0b0b0;
+   font-weight: bold;
+   letter-spacing: 1px;
+  }
+  #mobile-navi.visible a:hover {
+    color: #b0b0b0;
+    font-weight: bold;
+    letter-spacing: 1px;
+   }
+  li.normal {
+    border-bottom:1px solid rgba(255,255,255,0.05);
+  }
+  .surround {
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .contentbox {
+    padding: 30px;
+    box-sizing: border-box;
+  }
+  .title-box {
+    text-align: center;
+    padding: 36vh 0 0 0;
+    box-sizing: border-box;
+    color: #fff;
+  }
+  .title-box h1 {
+    font-size: 2.8rem;
+    margin-bottom: 1.2rem;
+    text-shadow: 0px 0px 2px rgba(0,0,0,1);
+  }
+  .title-box h2 {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    padding: 0px;
+    text-shadow: 0px 0px 2px rgba(0,0,0,1);
+  }
+}
