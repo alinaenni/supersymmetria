@@ -10,11 +10,16 @@ body {
   padding: 0px;
   box-sizing: border-box;
 }
-.pic {
-  width: 100%;
+.picbox {
+  padding: 0px;
+}
+.picleft {
   height: 250px;
-  border: 1px solid #dbdbdb;
-  margin-top: 0px;
+  padding: 0px;
+}
+.picright {
+  height: 250px;
+  padding: 0px;
 }
 a {
   color: #14613c;
