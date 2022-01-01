@@ -20,20 +20,16 @@
 
 
   <article>
-    <!-- Mobile navigation -->
-   <div class="mobile"><span id="navi-toggle">&#9776;</span></div>
-    <div class="mobile-navigation" id="mobile-navi">
-      <ul>
-          <li class="normal"><a href="https://alinaenni.github.io/supersymmetria/">Etusivu</a></li>
-          <li class="normal"><a href="https://alinaenni.github.io/time/about.html">Galleria</a></li>
-          <li class="normal"><a href="https://alinaenni.github.io/time/">Yhteystiedot</a></li>
-          <li><a href="https://alinaenni.github.io/time/contact.html">Contact</a></li>
-      </ul>
-    </div> <!-- End mobile navigation -->
 
       <div class="container-fluid">
 
           <div class="row">
+
+            <div class="mob col-md-12">
+              <ul>
+                <li><a href="https://alinaenni.github.io/supersymmetria/">Blogi</a></li><li><a href="https://alinaenni.github.io/supersymmetria/esittely.html">Esittely</a></li><li><a href="https://alinaenni.github.io/supersymmetria/yhteys.html">Ota yhteyttä</a></li>
+              </ul>
+            </div>
 
               <div class="col-md-8 surround">
 
@@ -124,20 +120,6 @@ BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR P
 IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE
 OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.-->
-
-
-<!-- Script for mobile navigation toggling -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <script>
-  $(document).ready(function() {
-    $("#navi-toggle").click(function(e) {
-      e.preventDefault();
-      $("#mobile-navi").toggleClass("visible");
-    });
-  });
-  </script>
 
 </body>
 </html>
