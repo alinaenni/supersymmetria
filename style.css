@@ -14,11 +14,11 @@ body {
   padding: 0px;
 }
 .picleft {
-  height: 250px;
+  max-height: 40vh;
   padding: 0px;
 }
 .picright {
-  height: 250px;
+  max-height: 40vh;
   padding: 0px;
 }
 strong {
