@@ -17,7 +17,7 @@ body {
 .picbox {
   padding: 0px;
   box-sizing: border-box;
-  max-height: 40vh;
+  max-height: 45vh;
   overflow: hidden;
 }
 strong {
