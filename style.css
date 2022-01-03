@@ -10,16 +10,14 @@ body {
   padding: 0px;
   box-sizing: border-box;
 }
+.pics {
+  margin: 0px;
+}
 .picbox {
   padding: 0px;
-}
-.picleft {
+  box-sizing: border-box;
   max-height: 40vh;
-  padding: 0px;
-}
-.picright {
-  max-height: 40vh;
-  padding: 0px;
+  overflow: hidden;
 }
 strong {
   color: #ad651d;
@@ -206,24 +204,6 @@ footer a {
 }
 footer a:hover {
   color: #5e5e5e;
-}
-.details {
-  table-layout: fixed;
-  width: 100%;
-  text-align: center;
-  color: #c2b6ba;
-}
-.details th {
-  width: 20%;
-  padding: 7px;
-}
-.details a {
-  color: #5d9178;
-}
-.she-pic {
-  width: 260px;
-  border: 20px solid #e9eef0;
-  margin-left: 35px;
 }
 .contentbox.new.some h1 {
   color: #c2b6ba;
