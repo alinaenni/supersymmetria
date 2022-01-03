@@ -17,8 +17,9 @@ body {
 .picbox {
   padding: 0px;
   box-sizing: border-box;
-  max-height: 45vh;
-  overflow: hidden;
+}
+.picbox img {
+  width: 100%;
 }
 strong {
   color: #ad651d;
@@ -123,7 +124,7 @@ nav.navbar {
   text-align: justify;
   background: transparent;
   box-sizing: border-box;
-  padding: 0px 40px 40px 40px;
+  padding: 0px 50px 50px 50px;
 }
 .contentbox {
   background-color: rgba(255,255,255,0.6);
