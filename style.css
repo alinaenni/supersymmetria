@@ -28,12 +28,13 @@ strong {
   color: #ad651d;
 }
 a {
-  color: #14613c;
+  color: #ad651d;
+  font-weight: bold;
   text-decoration: none;
 }
 a:hover {
-  text-decoration: none;
-  color: #14613c;
+  text-decoration: underline;
+  color: #ad651d;
 }
 .collapse {
   padding: 0px;
