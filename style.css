@@ -27,12 +27,12 @@ body {
 strong {
   color: #ad651d;
 }
-a {
+.contentbox a {
   color: #ad651d;
   font-weight: bold;
   text-decoration: none;
 }
-a:hover {
+.contentbox a:hover {
   text-decoration: underline;
   color: #ad651d;
 }
@@ -284,9 +284,11 @@ footer a:hover {
   .mob a {
     color: #573a1f;
     font-weight: bold;
-    text-transform: none;
     font-size: 0.8rem;
     letter-spacing: 1px;
+  }
+  .mob a:hover {
+    text-decoration: none;
   }
   li.normal {
     border-bottom:1px solid rgba(255,255,255,0.05);
