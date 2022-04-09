@@ -43,6 +43,23 @@
 
                     <div class="contentbox">
 
+                      <h3>9.4.2022</h3>
+                      <h1>Ilmava villapaita</h1>
+  
+                      <p>Tästä paidasta on tarkoitus tulla pehmeä ja kevyt, jotta sitä voi käyttää myös lämpimämmillä keleillä. Paidan ohjeen löysin Novitan sivustolta. 
+                        <a href="https://www.novitaknits.com/fi/naisen-pitsineuletoppi-novita-miami-(arkistomalli)" target="_blank">Malli</a> on neulottu Novita Miami 
+                        -langasta. Minua houkutteli erityisesti mallin pitsikuvio, joka muistuttaa minua metsästä ja kesästä. Omaan neuleeseeni valitsin kuitenkin 
+                        Novitan Elegia -langan, koska ihastuin tähän herkulliseen punaisen sävyyn ja langan liukuvärjäykseen. Lisäksi Elegia on ihanan pehmeää lankaa.
+                      </p>
+  
+                    </div>
+                    <div class="row pics">
+                        <div class="picbox col-md-6"><img src="paita1.jpg"></div>
+                        <div class="picbox col-md-6"><img src="paita2.jpg"></div>
+                    </div>
+
+                    <div class="contentbox">
+
                       <h3>3.2.2022</h3>
                       <h1>Kirjoneulesukat</h1>
   
@@ -130,35 +147,18 @@
                       <div class="picbox col-md-6"><img src="greentwo.jpg"></div>
                   </div>-->
 
+            <div class="contentbox new">
+            <div id="wrapper">
+              <section>
+                  <div class="data-container"></div>
+                  <div id="pagination-demo1"></div>
+                  <div class="data-container"></div>
+                  <div id="pagination-demo2"></div>
+              </section>
+            </div></div>
 
-                  <!--<div class="contentbox new">
-                    <h3>10.10.2021</h3>
-                    <h1>Muurahaisenpolkua sukanvarressa</h1>
-
-                    Nämä sukat tein syntymäpäivälahjaksi, joten yritin parhaani olla mahdollisimman huolellinen
-                    tiukasta aikataulusta huolimatta.
-
-                    <h4 class="button">Lue lisää</h4>
-
-                    <p class="this">
-                      Väriksi valikoitui mukavan tumma vihreä sävy, ja lankana oli Novitan
-                      Isoveli (puikkosuositus 5-6). Sukkien resoriksi tein helppoa ja perinteistä joustinneuletta, ja sitten
-                      aloitin tekemään varteen muurahaisenpolkua. Kyseinen pintaneule on yksinkertaisempaa toteuttaa kuin uskoisikaan,
-                      ja lopputuloksena on hauskalta näyttävä röpölöinen pinta, joka kiinnittää katseen. Kantapää on näissä sukissa
-                      vahvistettua neuletta, ja muurahaisenpolku jatkuu sukkien päälliosassa varpaisiin asti. Itse olen todella
-                      tyytyväinen sukkien väriin ja muurahaisenpolkuuni, ja sukat taisivat olla mieluinen lahja myös syntymäpäiväsankarille.
-                    </p>
-
-                  </div>-->
-
-                  <!--<div class="row pics">
-                      <div class="picbox col-md-6"><img src="green.jpg"></div>
-                      <div class="picbox col-md-6"><img src="greentwo.jpg"></div>
-                  </div>-->
-
-                  </div>
-              </div>
-
+          </div>
+        </div>
 
                 <div class="col-md-4 collapse show">
 
@@ -208,13 +208,21 @@ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMA
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE
 OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.-->
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://pagination.js.org/dist/2.1.5/pagination.min.js"></script>
 <script>
-$(document).ready(function(){
-  $(".button").click(function(){
-    $(".this").slideToggle();
-  });
-});
+
+$('#pagination-demo2').pagination({
+    dataSource: [1, 2, 3, 4, 5, 6, 7],
+    pageSize: 1,
+    showPageNumbers: false,
+    showNavigator: true,
+    callback: function(data, pagination) {
+        // template method of yourself
+        var html = template(data);
+        dataContainer.html(html);
+    }
+})
+
 </script>
 
 </body>
